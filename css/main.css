@@ -838,18 +838,22 @@ button:focus {
    Testimonial section
    ========================================================================== */
 #testimonial {
-  margin-bottom: 270px;
+  margin-bottom: 250px;
+  background: linear-gradient(95deg, #5533ff 40%, #25ddf5 100%);
+  padding: 119px 0px 80px 0px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
+  #testimonial h2 {
+    color:#fff;
+  }
   #testimonial .right-position {
     position: relative; }
   #testimonial .testimonial-area {
     position: absolute;
     width: 100%;
     z-index: 12;
-    top: 260px;
     margin: 0px auto; }
   #testimonial #client-testimonial {
     background-color: #fff;
