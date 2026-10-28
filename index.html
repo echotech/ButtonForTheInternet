@@ -2,861 +2,315 @@
 <html lang="en">
 
 <head>
-  <!-- Required meta tags -->
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="keywords" content="Bootstrap, Landing page, Template, Business, Service">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="author" content="Grayrids">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>HelloIT - We troubleshoot your business</title>
+  <meta name="description" content="HelloIT builds websites, runs marketing and SEO, and provides IT support for small businesses. Based in Utah.">
 
-  <!--====== Favicon Icon ======-->
-  <link rel="shortcut icon" href="img/2.png" type="image/png">
-  <!-- Testing -->
+  <link rel="icon" href="img/2.png" type="image/png">
 
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/animate.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&family=Rubik:wght@400;500&display=swap">
   <link rel="stylesheet" href="css/LineIcons.css">
-  <link rel="stylesheet" href="css/owl.carousel.css">
-  <link rel="stylesheet" href="css/owl.theme.css">
-  <link rel="stylesheet" href="css/magnific-popup.css">
-  <link rel="stylesheet" href="css/nivo-lightbox.css">
-  <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/responsive.css">
-
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-91168237-2"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-91168237-2');
-</script>
-
-
-
+  <link rel="stylesheet" href="css/site.css">
 </head>
 
 <body>
 
-  <!-- Header Section Start -->
-  <header id="home" class="hero-area">
-    <div class="overlay">
-      <span></span>
-      <span></span>
-    </div>
-    <nav class="navbar navbar-expand-md bg-inverse fixed-top scrolling-navbar">
-      <div class="container">
-        <a href="index.html" class="navbar-brand"><img src="img/logo.png" alt=""></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-          <i class="lni-menu"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-          <ul class="navbar-nav mr-auto w-100 justify-content-end">
-            <li class="nav-item">
-              <a class="nav-link page-scroll" href="#home">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link page-scroll" href="#features">Services</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link page-scroll" href="#showcase">Showcase</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link page-scroll" href="#pricing">Pricing</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link page-scroll" href="#team">Team</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link page-scroll" href="#contact">Contact</a>
-            </li>
-            <li class="nav-item">
-              <a class="btn btn-singin" href="tel:+18017091476">Call Us: 801-709-1476</a>
-            </li>
-          </ul>
-        </div>
-      </div>
+  <!-- Header -->
+  <header class="site-header">
+    <nav class="container nav" aria-label="Main">
+      <a href="index.html" class="nav-logo"><img src="img/logo.png" alt="HelloIT" width="250" height="70"></a>
+      <button class="nav-toggle" type="button" aria-controls="nav-links" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="lni-menu"></i>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#services">Services</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="about-us.html">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a class="nav-call" href="tel:+18017091476">Call 801-709-1476</a></li>
+      </ul>
     </nav>
-    <div class="container">
-      <div class="row space-100">
-        <div class="col-lg-6 col-md-12 col-xs-12">
-          <div class="contents">
-            <h2 class="head-title">We Troubleshoot Your Business</h2>
-            <p>Need a new website? Marketing? Social media? <br>Don't know what you need? You're in the right place.</p>
-            <div class="header-button">
-              <a href="#contact" class="btn btn-border page-scroll">Contact Us</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-6 col-md-12 col-xs-12 p-0">
-          <div class="intro-img">
-            <img src="img/intro-2.jpg" alt="">
-          </div>
-        </div>
-      </div>
-    </div>
   </header>
-  <!-- Header Section End -->
 
+  <main>
 
-  <!-- Business Plan Section Start -->
-  <section id="business-plan">
-    <div class="container">
-
-      <div class="row">
-        <!-- Start Col -->
-        <div class="col-lg-6 col-md-12 pl-0 pt-70 pr-5">
-          <div class="business-item-img">
-            <img src="img/business/vision.jpg" class="img-fluid" alt="">
+    <!-- Hero -->
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div>
+          <h1>We Troubleshoot Your Business</h1>
+          <p>Need a new website? Marketing? Social media? Don't know what you need? You're in the right place.</p>
+          <div class="hero-actions">
+            <a href="#contact" class="btn btn-primary">Get in touch</a>
+            <a href="#work" class="btn btn-light">See recent work</a>
           </div>
         </div>
-        <!-- End Col -->
-        <!-- Start Col -->
-        <div class="col-lg-6 col-md-12 pl-4">
-          <div class="business-item-info">
-            <h3>We can help you craft your vision.</h3>
-            <p>We've built everything from ecommerce solutions for multi-million dollar companies to single user blogs. Each business has a story and we want to help you get yours out there.</p>
-
-            <a class="btn btn-common" href="#contact">Contact Us</a>
-          </div>
+        <div class="hero-img">
+          <img src="img/intro-1100.jpg" alt="Illustration of a technician fixing a computer" width="1100" height="619">
         </div>
-        <!-- End Col -->
-
       </div>
-    </div>
-  </section>
-  <!-- Business Plan Section End -->
+    </section>
 
-
-
-  <!-- Cool Fetatures Section Start -->
-  <section id="features" class="section">
-    <div class="container">
-      <!-- Start Row -->
-      <div class="row">
-        <div class="col-lg-12">
-          <div class="features-text section-header text-center">
-            <div>
-              <h2 class="section-title">Services We Rock At</h2>
-              <div class="desc-text">
-                <p>We have years of experience building internet businesses from scratch. Whether you’re starting fresh or just need some help getting to the next level, we can help.</p>
-              </div>
-            </div>
-          </div>
+    <!-- Vision -->
+    <section class="section">
+      <div class="container split">
+        <img src="img/business/vision-1000.jpg" alt="Planning a website on paper" width="1000" height="667" loading="lazy">
+        <div>
+          <span class="eyebrow">What we do</span>
+          <h2>We can help you craft your vision.</h2>
+          <p>We've built everything from ecommerce solutions for multi-million dollar companies to single user blogs. Each business has a story and we want to help you get yours out there.</p>
+          <a class="btn btn-outline" href="#contact">Contact us</a>
         </div>
-
       </div>
-      <!-- End Row -->
-      <!-- Start Row -->
-      <div class="row featured-bg">
-        <!-- Start Col -->
-        <div class="col-lg-6 col-md-6 col-xs-12 p-0">
-          <!-- Start Fetatures -->
-          <div class="feature-item featured-border1">
-            <div class="feature-icon float-left">
-              <i class="lni-code"></i>
-            </div>
-            <div class="feature-info float-left">
-              <h4>Website Building</h4>
-              <p>We’ve built sites using everything from pure html <br> to WordPress. We can build and customize a site <br> on just about any platform.</p>
-            </div>
-          </div>
-          <!-- End Fetatures -->
+    </section>
+
+    <!-- Services -->
+    <section class="section section-soft" id="services">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Services</span>
+          <h2>Services We Rock At</h2>
+          <p>We have years of experience building internet businesses from scratch. Whether you're starting fresh or just need some help getting to the next level, we can help.</p>
         </div>
-        <!-- End Col -->
-
-        <!-- Start Col -->
-        <div class="col-lg-6 col-md-6 col-xs-12 p-0">
-          <!-- Start Fetatures -->
-          <div class="feature-item featured-border2">
-            <div class="feature-icon float-left">
-              <i class="lni-envelope"></i>
-            </div>
-            <div class="feature-info float-left">
-              <h4>Email Marketing</h4>
-              <p>We’ve built and marketed to email lists as big <br> as 400,000 people. Salesforce Marketing Cloud,<br> Mailchimp, you name it we can build for it.</p>
-            </div>
-          </div>
-          <!-- End Fetatures -->
+        <div class="services">
+          <article class="service">
+            <span class="service-icon"><i class="lni-code"></i></span>
+            <h3>Website Building</h3>
+            <p>We've built sites using everything from pure HTML to WordPress to custom web apps. We can build and customize a site on just about any platform.</p>
+          </article>
+          <article class="service">
+            <span class="service-icon"><i class="lni-envelope"></i></span>
+            <h3>Email Marketing</h3>
+            <p>We've built and marketed to email lists as big as 400,000 people. Salesforce Marketing Cloud, Mailchimp, you name it, we can build for it.</p>
+          </article>
+          <article class="service">
+            <span class="service-icon"><i class="lni-seo-monitoring"></i></span>
+            <h3>SEO</h3>
+            <p>We've produced long-lasting organic SEO results for all kinds of brands for more than a decade. We know what it takes to get you found.</p>
+          </article>
+          <article class="service">
+            <span class="service-icon"><i class="lni-facebook-filled"></i></span>
+            <h3>Social Media</h3>
+            <p>Facebook, Instagram, and the rest. Are they right for your business? We can help you build your audience and find your customers where they live.</p>
+          </article>
+          <article class="service">
+            <span class="service-icon"><i class="lni-magnet"></i></span>
+            <h3>Advertising</h3>
+            <p>If you build it, they won't come. You have to do more than put up a fancy site. You've got to get people there. We can help with that.</p>
+          </article>
+          <article class="service">
+            <span class="service-icon"><i class="lni-support"></i></span>
+            <h3>Premier Support</h3>
+            <p>Get hacked? Lose your IT person? We understand your website is your life, and we can get you back up and running ASAP.</p>
+          </article>
         </div>
-        <!-- End Col -->
-
-        <!-- Start Col -->
-        <div class="col-lg-6 col-md-6 col-xs-12 p-0">
-          <!-- Start Fetatures -->
-          <div class="feature-item featured-border1">
-            <div class="feature-icon float-left">
-              <i class="lni-seo-monitoring"></i>
-            </div>
-            <div class="feature-info float-left">
-              <h4>SEO</h4>
-              <p>Producing long lasting organic SEO results for <br> brand of different kinds for more than a decade,<br> we understand that’s your.</p>
-            </div>
-          </div>
-          <!-- End Fetatures -->
-        </div>
-        <!-- End Col -->
-
-        <!-- Start Col -->
-        <div class="col-lg-6 col-md-6 col-xs-12 p-0">
-          <!-- Start Fetatures -->
-          <div class="feature-item featured-border2">
-            <div class="feature-icon float-left">
-              <i class="lni-facebook-filled"></i>
-            </div>
-            <div class="feature-info float-left">
-              <h4>Social Media</h4>
-              <p>Facebook, Twitter, Instagram. <br>Are they right for your business? Yes! We can help <br>you build your audience and find your<br> customers where they live.</p>
-            </div>
-          </div>
-          <!-- End Fetatures -->
-        </div>
-        <!-- End Col -->
-
-        <!-- Start Col -->
-        <div class="col-lg-6 col-md-6 col-xs-12 p-0">
-          <!-- Start Fetatures -->
-          <div class="feature-item featured-border3">
-            <div class="feature-icon float-left">
-              <i class="lni-magnet"></i>
-            </div>
-            <div class="feature-info float-left">
-              <h4>Advertising</h4>
-              <p>If you build it they won't come.<br> You have to do more than put up <br>a fancy site. You've got to get people there. <br>We can help with that.</p>
-            </div>
-          </div>
-          <!-- End Fetatures -->
-        </div>
-        <!-- End Col -->
-
-        <!-- Start Col -->
-        <div class="col-lg-6 col-md-6 col-xs-12 p-0">
-          <!-- Start Fetatures -->
-          <div class="feature-item">
-            <div class="feature-icon float-left">
-              <i class="lni-support"></i>
-            </div>
-            <div class="feature-info float-left">
-              <h4>Premier Support</h4>
-              <p>Get hacked? Lose your IT person?<br> We understand your website is your life <br>and we can get you back up and running ASAP.</p>
-            </div>
-          </div>
-          <!-- End Fetatures -->
-        </div>
-        <!-- End Col -->
-
-
       </div>
-      <!-- End Row -->
-    </div>
-  </section>
-  <!-- Cool Fetatures Section End -->
+    </section>
 
-
-  <!-- Recent Showcase Section Start -->
-  <section id="showcase">
-    <div class="container-fluid right-position">
-      <!-- Start Row -->
-      <div class="row gradient-bg">
-        <div class="col-lg-12">
-          <div class="showcase-text section-header text-center">
-            <div>
-              <h2 class="section-title">Recent Works</h2>
-              <div class="desc-text">
-                <p>We've helped a lot of businesses just like yours build out their site and marketing plan.</p>
-                <p>Here are a few happy customers.</p>
-              </div>
-            </div>
-          </div>
+    <!-- Recent work -->
+    <section class="section" id="work">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Recent work</span>
+          <h2>A Few Happy Customers</h2>
+          <p>We've helped a lot of businesses just like yours build out their site and marketing plan.</p>
         </div>
-
+        <div class="work">
+          <a class="work-card" href="https://rvrouteplan.com/" target="_blank" rel="noopener">
+            <img src="img/showcase/rvrouteplan.jpg" alt="RVRouteplan homepage" width="960" height="480" loading="lazy">
+            <div class="work-body">
+              <p class="work-tags">Web app</p>
+              <h3>RVRouteplan</h3>
+              <p>Trip planner that ranks campgrounds across RV memberships along your route.</p>
+              <span class="work-link">rvrouteplan.com &rarr;</span>
+            </div>
+          </a>
+          <a class="work-card" href="https://realignmind.com/" target="_blank" rel="noopener">
+            <img src="img/showcase/realignmind.jpg" alt="RealignMind homepage" width="960" height="480" loading="lazy">
+            <div class="work-body">
+              <p class="work-tags">Web app</p>
+              <h3>RealignMind</h3>
+              <p>Guided bilateral stimulation sessions, with accounts and subscriptions.</p>
+              <span class="work-link">realignmind.com &rarr;</span>
+            </div>
+          </a>
+          <a class="work-card" href="https://sidsalignmentservice.com/" target="_blank" rel="noopener">
+            <img src="img/showcase/sids.jpg" alt="Sid's Alignment homepage" width="960" height="480" loading="lazy">
+            <div class="work-body">
+              <p class="work-tags">Website</p>
+              <h3>Sid's Alignment</h3>
+              <p>Small business site for a local alignment shop in business since 1984.</p>
+              <span class="work-link">sidsalignmentservice.com &rarr;</span>
+            </div>
+          </a>
+          <a class="work-card" href="https://ascendeducation.com/" target="_blank" rel="noopener">
+            <img src="img/showcase/ascend.jpg" alt="Ascend Education homepage" width="960" height="480" loading="lazy">
+            <div class="work-body">
+              <p class="work-tags">Ecommerce, Marketing</p>
+              <h3>Ascend Education</h3>
+              <p>Website and marketing plan for an IT training company.</p>
+              <span class="work-link">ascendeducation.com &rarr;</span>
+            </div>
+          </a>
+        </div>
       </div>
-      <!-- End Row -->
-      <!-- Start Row -->
-      <div class="row justify-content-center showcase-area">
-        <div class="col-lg-12 col-md-12 col-xs-12 pr-0">
-          <div class="showcase-slider owl-carousel">
-            <div class="item">
-              <div class="screenshot-thumb">
-                <img src="img/showcase/certmag.jpg" class="img-fluid" alt="" />
-                <div class="hover-content text-center">
-                  <div class="fancy-table">
-                    <div class="table-cell">
-                      <div class="single-text">
-                        <p>Website, Marketing</p>
-                        <h5>Rebuild CertMag</h5>
-                      </div>
-                      <div class="zoom-icon">
-                        <a class="lightbox" href="img/showcase/certmag.jpg"><i class="lni-zoom-in"></i></a>
-                        <a href="http://certmag.com"><i class="lni-link"></i></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+    </section>
 
-              </div>
-            </div>
-            <div class="item">
-              <div class="screenshot-thumb">
-                <img src="img/showcase/testoutce.jpg" class="img-fluid" alt="" />
-                <div class="hover-content text-center">
-                  <div class="fancy-table">
-                    <div class="table-cell">
-                      <div class="single-text">
-                        <p>Website, Marketing</p>
-                        <h5>New Brand</h5>
-                      </div>
-                      <div class="zoom-icon">
-                        <a class="lightbox" href="img/showcase/testoutce.jpg"><i class="lni-zoom-in"></i></a>
-                        <a href="https://testoutce.com"><i class="lni-link"></i></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="screenshot-thumb">
-                <img src="img/showcase/gocertify.jpg" class="img-fluid" alt="" />
-                <div class="hover-content text-center">
-                  <div class="fancy-table">
-                    <div class="table-cell">
-                      <div class="single-text">
-                        <p>Website, Marketing</p>
-                        <h5>Rebuild Gocertify</h5>
-                      </div>
-                      <div class="zoom-icon">
-                        <a class="lightbox" href="img/showcase/gocertify.jpg"><i class="lni-zoom-in"></i></a>
-                        <a href="http://gocertify.com"><i class="lni-link"></i></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="screenshot-thumb">
-                <img src="img/showcase/muir.jpg" class="img-fluid" alt="" />
-                <div class="hover-content text-center">
-                  <div class="fancy-table">
-                    <div class="table-cell">
-                      <div class="single-text">
-                        <p>Website, IT</p>
-                        <h5>IT Consulting</h5>
-                      </div>
-                      <div class="zoom-icon">
-                        <a class="lightbox" href="img/showcase/muir.jpg"><i class="lni-zoom-in"></i></a>
-                        <a href="http://muirgourmet.com"><i class="lni-link"></i></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="screenshot-thumb">
-                <img src="img/showcase/ascend.jpg" class="img-fluid" alt="" />
-                <div class="hover-content text-center">
-                  <div class="fancy-table">
-                    <div class="table-cell">
-                      <div class="single-text">
-                        <p>Ecommerce</p>
-                        <h5>Website, Marketing Plan</h5>
-                      </div>
-                      <div class="zoom-icon">
-                        <a class="lightbox" href="img/showcase/ascend.jpg"><i class="lni-zoom-in"></i></a>
-                        <a href="http://ascendeducation.com"><i class="lni-link"></i></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="screenshot-thumb">
-                <img src="img/showcase/alaskaselect.jpg" class="img-fluid" alt="" />
-                <div class="hover-content text-center">
-                  <div class="fancy-table">
-                    <div class="table-cell">
-                      <div class="single-text">
-                        <p>Website, Migration</p>
-                        <h5>New Site, Custom Plugin</h5>
-                      </div>
-                      <div class="zoom-icon">
-                        <a class="lightbox" href="img/showcase/alaskaselect.jpg"><i class="lni-zoom-in"></i></a>
-                        <a href="#"><i class="lni-link"></i></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-              </div>
-            </div>
-
-
-            </div>
-
-
-
+    <!-- Pricing -->
+    <section class="section section-soft" id="pricing">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Pricing</span>
+          <h2>Straightforward Pricing</h2>
+          <p>We want to help you without breaking the bank. High-quality work at an affordable cost.</p>
+        </div>
+        <div class="pricing">
+          <div class="plan">
+            <h3>By the Job</h3>
+            <p class="from">&nbsp;</p>
+            <div class="price">$125<small>/hr</small></div>
+            <ul>
+              <li>Custom Plugins</li>
+              <li>New Websites</li>
+              <li>Break/Fix</li>
+              <li>IT Support</li>
+              <li>Migrations</li>
+            </ul>
+            <a href="#contact" class="btn btn-outline">Contact us</a>
+          </div>
+          <div class="plan plan-featured">
+            <h3>Ongoing Support</h3>
+            <p class="from">Starting at</p>
+            <div class="price">$300<small>/mo</small></div>
+            <ul>
+              <li>Server Support</li>
+              <li>Security Patches</li>
+              <li>Monitoring</li>
+              <li>Desktops/Laptops/Printers</li>
+              <li>Additional Projects $100/hr</li>
+            </ul>
+            <a href="#contact" class="btn btn-primary">Contact us</a>
+          </div>
+          <div class="plan">
+            <h3>Marketing Roadmap</h3>
+            <p class="from">One time</p>
+            <div class="price">$250</div>
+            <p class="lead">We'll tell you:</p>
+            <ul>
+              <li>Where/when to post</li>
+              <li>Which tools to use</li>
+              <li>Where to advertise</li>
+              <li>What your SEO is missing</li>
+            </ul>
+            <a href="#contact" class="btn btn-outline">Contact us</a>
           </div>
         </div>
       </div>
-      <!-- End Row -->
-    </div>
-  </section>
-  <!-- Recent Showcase Section End -->
+    </section>
 
-  <!-- Our Pricing Plan Section Start -->
-  <section id="pricing" class="section">
-    <div class="container">
-      <!-- Start Row -->
-      <div class="row">
-        <div class="col-lg-12">
-          <div class="pricing-text section-header text-center">
-            <div>
-              <h2 class="section-title">Pricing</h2>
-              <div class="desc-text">
-                <p>We want to help you without breaking the bank.</p>
-                <p>We deliver high-quality work at an affordable cost.</p>
-              </div>
-            </div>
-          </div>
+    <!-- Testimonials -->
+    <section class="section" id="testimonials">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Testimonials</span>
+          <h2>What Customers Say</h2>
         </div>
-
-      </div>
-      <!-- End Row -->
-      <!-- Start Row -->
-      <div class="row pricing-tables">
-        <!--  Start Col -->
-        <div class="col-lg-4 col-md-4 col-xs-12">
-          <div class="pricing-table text-center">
-            <div class="pricing-details">
-              <h3>By the Job</h3>
-              <h1>$125/hr</h1>
-              <ul>
-                <li>Custom Plugins</li>
-                <li>New Websites</li>
-                <li>Break/Fix</li>
-                <li>IT Support</li>
-                <li>Migrations</li>
-              </ul>
-            </div>
-            <div class="plan-button">
-              <a href="#contact" class="btn btn-border">Contact Us</a>
-            </div>
-          </div>
-        </div>
-        <!--  End Col -->
-        <!--  Start Col -->
-        <div class="col-lg-4 col-md-4 col-xs-12">
-          <div class="pricing-table text-center">
-            <div class="pricing-details">
-              <h3>Ongoing Support</h3>
-              <p>Starting At</p>
-              <h1>$300/mo</h1>
-              <ul>
-                <li>Server Support</li>
-                <li>Security Patches</li>
-                <li>Monitoring</li>
-                <li>Desktops/Laptops/Printers</li>
-                <li>Additional Projects $100/hr</li>
-
-              </ul>
-            </div>
-            <div class="plan-button">
-              <a href="#contact" class="btn btn-common">Contact Us</a>
-            </div>
-          </div>
-        </div>
-        <!--  End Col -->
-        <!--  Start Col -->
-        <div class="col-lg-4 col-md-4 col-xs-12">
-          <div class="pricing-table text-center">
-            <div class="pricing-details">
-              <h3>Marketing Roadmap</h3>
-              <h1>$250</h1>
-              <p>We'll tell you:</p>
-              <ul>
-                <li>Where/when to post.</li>
-                <li>Which tools to use.</li>
-                <li>Where to advertise.</li>
-                <li>What your SEO is missing.</li>
-              </ul>
-            </div>
-            <div class="plan-button">
-              <a href="#" class="btn btn-border">Contact Us</a>
-            </div>
-          </div>
-        </div>
-        <!--  End Col -->
-
-      </div>
-      <!-- End Row -->
-    </div>
-  </section>
-  <!-- Our Pricing Plan Section End -->
-
-  <!-- Client Testimoninals Section Start -->
-  <section id="testimonial" class="section">
-    <div class="container-fluid right-position">
-      <!-- Start Row -->
-      <div class="row gradient-bg">
-        <div class="col-lg-12">
-          <div class="showcase-text section-header text-center">
-            <div>
-              <h2 class="section-title">Testimonials</h2>
-              <div class="desc-text">
-                <p style="color:#fff">Here's what our customers have to say.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-      <!-- End Row -->
-      <!-- Start Row -->
-      <div class="row justify-content-center testimonial-area">
-        <div class="col-lg-10 col-md-12 col-sm-12 col-xs-12 pr-20 pl-20" style="overflow: hidden;padding-bottom: 60px">
-          <div id="client-testimonial" class="text-center owl-carousel">
-            <div class="item">
-              <div class="testimonial-item">
-                <div class="content-inner">
-                  <p class="description">Jed is one of those valuable professionals whose job is also their hobby. He consistently brought innovative improvements to GoCertify, many of which we implemented. He is a self-starter and a capable project manager. His willingness to think outside the box combined with a superlative tech savvy approach to day to day challenges helped us move quickly forward as a newly acquired company. Thanks to his efforts, we were able to outpace many better funded and more established competitors. Working with Jed has been a pleasure.</p>
-                  <div class="author-info">
-                    <h5>Rocky Steele ; <span> CEO Ascend Education, Standard Oil</span></h5>
-                  </div>
-                </div>
-
-              </div>
-            </div>
-            <div class="item">
-              <div class="testimonial-item">
-                <div class="content-inner">
-                  <p class="description">He’s someone you can trust to get the job done, even in tough situations. I’ve seen him solve complex virus attacks, quickly restore websites that have crashed, and work long into the night to make sure a campaign gets successfully released. Jed has a strong grasp on all the current Tech trends and has provided valuable marketing decisions for our team that have greatly influenced our products success.</p>
-                  <div class="author-info">
-                    <h5>Jordan Jones ; <span> Creative Director GoCertify</span></h5>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-          </div>
+        <div class="quotes">
+          <blockquote class="quote">
+            <p>Jed is one of those valuable professionals whose job is also their hobby. He consistently brought innovative improvements to GoCertify, many of which we implemented. He is a self-starter and a capable project manager. His willingness to think outside the box combined with a superlative tech savvy approach to day to day challenges helped us move quickly forward as a newly acquired company. Thanks to his efforts, we were able to outpace many better funded and more established competitors. Working with Jed has been a pleasure.</p>
+            <footer>Rocky Steele <span>CEO, Ascend Education, Standard Oil</span></footer>
+          </blockquote>
+          <blockquote class="quote">
+            <p>He's someone you can trust to get the job done, even in tough situations. I've seen him solve complex virus attacks, quickly restore websites that have crashed, and work long into the night to make sure a campaign gets successfully released. Jed has a strong grasp on all the current tech trends and has provided valuable marketing decisions for our team that have greatly influenced our product's success.</p>
+            <footer>Jordan Jones <span>Creative Director, GoCertify</span></footer>
+          </blockquote>
         </div>
       </div>
-      <!-- End Row -->
-    </div>
-  </section>
-  <!-- Client Testimoninals Section End -->
+    </section>
 
-
-  <!-- Team section Start -->
-  <section id="team" class="section">
-    <div class="container">
-      <!-- Start Row -->
-      <div class="row">
-        <div class="col-lg-12">
-          <div class="team-text section-header text-center">
-            <div>
-              <h2 class="section-title">Team Members</h2>
-              <div class="desc-text">
-                <p>We've built a team of smart, reliable workers who love to solve problems.</p>
-
-              </div>
-            </div>
-          </div>
+    <!-- Contact -->
+    <section class="section section-soft" id="contact">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Contact</span>
+          <h2>Get In Touch</h2>
+          <p>Need a quote? Have a question? Just need someone to talk to? Fill out the form or give us a call.</p>
         </div>
-
-      </div>
-      <!-- End Row -->
-      <!-- Start Row -->
-      <div class="row">
-        <!-- Start Col -->
-        <div class="col-lg-4 col-md-6 col-xs-12">
-          <div class="single-team">
-            <div class="team-thumb">
-              <img src="img/team/jed.jpg" class="img-fluid" alt="">
-            </div>
-
-            <div class="team-details">
-              <div class="team-social-icons">
-                <ul class="social-list">
-                  <li><a href="https://linkedin.com/in/jedreisner"><i class="lni-linkedin-original"></i></a></li>
-                  <li><a href="https://twitter.com/jedreisner"><i class="lni-twitter-filled"></i></a></li>
-                  <li><a href="https://github.com/echotech"><i class="lni-github-original"></i></a></li>
-                </ul>
+        <div class="contact-grid">
+          <form action="https://formspree.io/hello@buttonfortheinter.net" method="POST">
+            <div class="form-grid">
+              <div class="field">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" autocomplete="name" required>
               </div>
-              <div class="team-inner text-center">
-                <h5 class="team-title">Jed Reisner</h5>
-                <p>Founder/CEO</p>
-                <!-- the dude -->
+              <div class="field">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="_replyto" autocomplete="email" required>
               </div>
-            </div>
-          </div>
-        </div>
-        <!-- Start Col -->
-
-        <!-- Start Col -->
-        <div class="col-lg-4 col-md-6 col-xs-12">
-          <div class="single-team">
-            <div class="team-thumb">
-              <img src="img/team/nathan-2.png" class="img-fluid" alt="">
-            </div>
-
-            <div class="team-details">
-              <div class="team-social-icons">
-                <ul class="social-list">
-                  <li><a href="https://www.linkedin.com/in/nathanjtelford/ "><i class="lni-linkedin-original"></i></a></li>
-                  <li><a href="https://nathantelford.dev/"><i class="lni-website"></i></a></li>
-                  <li><a href="https://github.com/NathanJTelford"><i class="lni-github-original"></i></a></li>
-
-                </ul>
+              <div class="field">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="_subject" required>
               </div>
-              <div class="team-inner text-center">
-                <h5 class="team-title">Nathan Telford</h5>
-                <p>Full-stack Developer</p>
+              <div class="field">
+                <label for="budget">Budget</label>
+                <input type="text" id="budget" name="budget">
               </div>
-            </div>
-          </div>
-        </div>
-        <!-- Start Col -->
-
-        <!-- Start Col -->
-        <div class="col-lg-4 col-md-6 col-xs-12">
-          <div class="single-team">
-            <div class="team-thumb">
-              <img src="img/team/jonathan-headshot.jpg" class="img-fluid" alt="">
-            </div>
-
-            <div class="team-details">
-              <div class="team-social-icons">
-                <ul class="social-list">
-                  <li><a href="https://github.com/Jolt64"><i class="lni-github-original"></i></a></li>
-                  <li><a href="https://www.linkedin.com/in/j-telford-dev/"><i class="lni-linkedin-original"></i></a></li>
-                  <!-- <li><a href="#"><i class="lni-google-plus"></i></a></li> -->
-                </ul>
+              <div class="field full">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
               </div>
-              <div class="team-inner text-center">
-                <h5 class="team-title">Jonathan Telford</h5>
-                <p>Full-stack Developer</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- Start Col -->
-
-
-
-
-      </div>
-      <!-- End Row -->
-    </div>
-  </section>
-  <!-- Team section End -->
-
-
-
-
-  <!-- Contact Us Section -->
-  <section id="contact" class="section">
-    <!-- Container Starts -->
-    <div class="container">
-      <!-- Start Row -->
-      <div class="row">
-        <div class="col-lg-12">
-          <div class="contact-text section-header text-center">
-            <div>
-              <h2 class="section-title">Get In Touch</h2>
-              <div class="desc-text">
-                <p>Need a quote? Have a question?</p>
-                <p>Just need someone to talk to? Fill out the form.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-      <!-- End Row -->
-      <!-- Start Row -->
-      <div class="row">
-        <!-- Start Col -->
-        <div class="col-lg-6 col-md-12">
-          <form id="contactForm"action="https://formspree.io/hello@buttonfortheinter.net" method="POST">
-            <div class="row">
-              <div class="col-md-6">
-                <div class="form-group">
-                  <input type="text" class="form-control" id="name" name="name" placeholder="Name" required data-error="Please enter your name">
-                  <div class="help-block with-errors"></div>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="form-group">
-                  <input type="text" placeholder="Subject" id="msg_subject" class="form-control" name="_subject" required data-error="Please enter your subject">
-                  <div class="help-block with-errors"></div>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="form-group">
-                  <input type="text" class="form-control" id="email" name="_replyto" placeholder="Email" required data-error="Please enter your Email">
-                  <div class="help-block with-errors"></div>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="form-group">
-                  <input type="text" placeholder="Budget" id="budget" class="form-control" name="budget" required data-error="Please enter your Budget">
-                  <div class="help-block with-errors"></div>
-                </div>
-              </div>
-              <div class="col-md-12">
-                <div class="form-group">
-                  <textarea class="form-control" id="message" name="message" placeholder="Write Message" rows="4" data-error="Write your message" required></textarea>
-                  <div class="help-block with-errors"></div>
-                </div>
-                <div class="form-group" style="display:none;">
-                  <input type="text" name="_gotcha">
-                </div>
-                <div class="submit-button">
-                  <button class="btn btn-common" id="submit" type="submit" value="send">Submit</button>
-                  <div id="msgSubmit" class="h3 hidden"></div>
-                  <div class="clearfix"></div>
-                </div>
+              <input type="text" name="_gotcha" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+              <div class="full">
+                <button class="btn btn-primary" type="submit">Send message</button>
               </div>
             </div>
           </form>
-        </div>
-        <!-- End Col -->
-        <!-- Start Col -->
-        <div class="col-lg-1">
-
-        </div>
-        <!-- End Col -->
-        <!-- Start Col -->
-        <div class="col-lg-4 col-md-12">
-          <div class="contact-img">
-            <img src="img/contact/01.png" class="img-fluid" alt="">
-          </div>
-        </div>
-        <!-- End Col -->
-        <!-- Start Col -->
-        <div class="col-lg-1">
-        </div>
-        <!-- End Col -->
-
-      </div>
-      <!-- End Row -->
-    </div>
-  </section>
-  <!-- Contact Us Section End -->
-
-  <!-- Footer Section Start -->
-  <footer>
-    <!-- Footer Area Start -->
-    <section id="footer-Content">
-      <div class="container">
-        <!-- Start Row -->
-        <div class="row">
-
-          <!-- Start Col -->
-          <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 col-mb-12">
-
-            <div class="footer-logo">
-              <img src="img/footer-logo.png" alt="">
-            </div>
-          </div>
-          <!-- End Col -->
-          <!-- Start Col -->
-          <div class="col-lg-2 col-md-6 col-sm-6 col-xs-6 col-mb-12">
-            <div class="widget">
-              <h3 class="block-title">Company</h3>
-              <ul class="menu">
-                <li><a href="about-us.html"> - About Us</a></li>
-                <li><a href="#services"> - Services</a></li>
-                <li><a href="#showcase"> - Showcase</a></li>
-                <li><a href="#pricing">- Pricing</a></li>
-                <li><a href="#team"> - Team</a></li>
-                <li><a href="#contact"> - Contact</a></li>
-              </ul>
-            </div>
-          </div>
-          <!-- End Col -->
-          <!-- Start Col -->
-          <div class="col-lg-2 col-md-6 col-sm-6 col-xs-6 col-mb-12">
-            <div class="widget">
-              <h3 class="block-title">Product</h3>
-              <ul class="menu">
-                <li><a href="#services"> - Services</a></li>
-                <li><a href="#showcase"> - Showcase</a></li>
-                <li><a href="#contact"> - Contact</a></li>
-              </ul>
-            </div>
-          </div>
-          <!-- End Col -->
-
-          <!-- Start Col -->
-          <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 col-mb-12">
-            <div class="widget">
-              <h3 class="block-title">Subscribe Now</h3>
-              <p>Subscribe for deals, info, and because you need another email in your inbox!</p>
-              <div class="subscribe-area">
-                <input type="email" class="form-control" placeholder="Enter Email">
-                <span><i class="lni-chevron-right"></i></span>
-              </div>
-            </div>
-          </div>
-          <!-- End Col -->
-        </div>
-        <!-- End Row -->
-      </div>
-      <!-- Copyright Start  -->
-
-      <div class="copyright">
-        <div class="container">
-          <!-- Star Row -->
-          <div class="row">
-            <div class="col-md-12">
-              <div class="site-info text-center">
-                <p>&copy; HelloIT 2019</p>
-              </div>
-
-            </div>
-            <!-- End Col -->
-          </div>
-          <!-- End Row -->
+          <aside class="contact-card">
+            <h3>Prefer to talk?</h3>
+            <p>Call or email directly. We usually respond within one business day.</p>
+            <a href="tel:+18017091476"><i class="lni-phone-handset"></i> 801-709-1476</a>
+            <a href="mailto:hello@buttonfortheinter.net"><i class="lni-envelope"></i> hello@buttonfortheinter.net</a>
+          </aside>
         </div>
       </div>
-      <!-- Copyright End -->
     </section>
-    <!-- Footer area End -->
 
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <img src="img/footer-logo.png" alt="HelloIT" width="250" height="70">
+        <ul class="footer-links">
+          <li><a href="#services">Services</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="about-us.html">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <p class="copyright">&copy; <span id="year">2026</span> HelloIT</p>
+    </div>
   </footer>
-  <!-- Footer Section End -->
 
-
-  <!-- Go To Top Link -->
-  <a href="#" class="back-to-top">
-    <i class="lni-chevron-up"></i>
-  </a>
-
-  <!-- Preloader -->
-  <div id="preloader">
-    <div class="loader" id="loader-1"></div>
-  </div>
-  <!-- End Preloader -->
-
-  <!-- jQuery first, then Tether, then Bootstrap JS. -->
-  <script src="js/jquery-min.js"></script>
-  <script src="js/popper.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/owl.carousel.js"></script>
-  <script src="js/jquery.nav.js"></script>
-  <script src="js/scrolling-nav.js"></script>
-  <script src="js/jquery.easing.min.js"></script>
-  <script src="js/nivo-lightbox.js"></script>
-  <script src="js/jquery.magnific-popup.min.js"></script>
-  <script src="js/main.js"></script>
-
+  <script>
+    // Mobile menu toggle + current year
+    var toggle = document.querySelector('.nav-toggle');
+    var links = document.getElementById('nav-links');
+    toggle.addEventListener('click', function () {
+      var open = links.classList.toggle('open');
+      toggle.setAttribute('aria-expanded', open);
+    });
+    links.addEventListener('click', function (e) {
+      if (e.target.tagName === 'A') { links.classList.remove('open'); toggle.setAttribute('aria-expanded', 'false'); }
+    });
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
 </body>
 
 </html>
