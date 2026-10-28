@@ -280,6 +280,7 @@ h1, h2, h3, h4 {
   margin: .2rem 0 1rem;
 }
 .price small { font-size: 1rem; font-weight: 400; opacity: .7; }
+.price-quote { font-size: 1.9rem; line-height: 1.35; }
 .plan ul { list-style: none; padding: 0; margin: 0 0 2rem; flex: 1; }
 .plan li { padding: 9px 0; border-top: 1px solid var(--line); }
 .plan-featured li { border-color: rgba(255, 255, 255, .25); }
