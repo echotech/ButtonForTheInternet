@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Thanks | HelloIT</title>
+  <meta name="robots" content="noindex">
+
+  <link rel="icon" href="img/2.png" type="image/png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&family=Rubik:wght@400;500&display=swap">
+  <link rel="stylesheet" href="css/LineIcons.css">
+  <link rel="stylesheet" href="css/site.css">
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header class="site-header">
+    <nav class="container nav" aria-label="Main">
+      <a href="index.html" class="nav-logo"><img src="img/logo.png" alt="HelloIT" width="250" height="70"></a>
+      <a class="nav-call-icon" href="tel:+18017091476" aria-label="Call 801-709-1476"><i class="lni-phone-handset"></i></a>
+      <button class="nav-toggle" type="button" aria-controls="nav-links" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="lni-menu"></i>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html#services">Services</a></li>
+        <li><a href="index.html#work">Work</a></li>
+        <li><a href="index.html#pricing">Pricing</a></li>
+        <li><a href="about-us.html">About</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+        <li><a class="nav-call" href="tel:+18017091476">Call 801-709-1476</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero hero-simple">
+      <div class="container">
+        <h1>Thanks, we got your message.</h1>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container prose">
+        <p>We'll review the details and get back to you with next steps. If your website is down or something can't wait, call us now.</p>
+        <p><a class="btn btn-primary" href="tel:+18017091476">Call 801-709-1476</a> <a class="btn btn-outline" href="index.html">Back to home</a></p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <img src="img/footer-logo.png" alt="HelloIT" width="250" height="70">
+        <ul class="footer-links">
+          <li><a href="index.html#services">Services</a></li>
+          <li><a href="index.html#work">Work</a></li>
+          <li><a href="index.html#pricing">Pricing</a></li>
+          <li><a href="about-us.html">About</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+          <li><a href="tel:+18017091476">801-709-1476</a></li>
+        </ul>
+      </div>
+      <p class="copyright">&copy; <span id="year">2026</span> HelloIT LLC &middot; Utah County, Utah &middot; Websites and IT support since 2016.</p>
+    </div>
+  </footer>
+
+  <script>
+    // Mobile menu toggle + current year
+    var toggle = document.querySelector('.nav-toggle');
+    var links = document.getElementById('nav-links');
+    toggle.addEventListener('click', function () {
+      var open = links.classList.toggle('open');
+      toggle.setAttribute('aria-expanded', open);
+    });
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+
+</html>
