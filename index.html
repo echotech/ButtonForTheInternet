@@ -250,7 +250,8 @@
           <p>Need a quote? Have a question? Just need someone to talk to? Fill out the form or give us a call.</p>
         </div>
         <div class="contact-grid">
-          <form action="https://formspree.io/hello@buttonfortheinter.net" method="POST">
+          <form action="https://formsubmit.co/hello@buttonfortheinter.net" method="POST">
+            <input type="hidden" name="_template" value="table">
             <div class="form-grid">
               <div class="field">
                 <label for="name">Name</label>
@@ -258,7 +259,7 @@
               </div>
               <div class="field">
                 <label for="email">Email</label>
-                <input type="email" id="email" name="_replyto" autocomplete="email" required>
+                <input type="email" id="email" name="email" autocomplete="email" required>
               </div>
               <div class="field">
                 <label for="subject">Subject</label>
@@ -272,7 +273,7 @@
                 <label for="message">Message</label>
                 <textarea id="message" name="message" rows="5" required></textarea>
               </div>
-              <input type="text" name="_gotcha" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+              <input type="text" name="_honey" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
               <div class="full">
                 <button class="btn btn-primary" type="submit">Send message</button>
               </div>
