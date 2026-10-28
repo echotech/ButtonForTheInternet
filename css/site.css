@@ -208,11 +208,14 @@ h1, h2, h3, h4 {
 .service p { color: var(--muted); margin: 0; font-size: .97rem; }
 
 /* ---------- Work ---------- */
+/* Flex so an incomplete last row stays centered */
 .work {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 28px;
 }
+.work > .work-card { flex: 0 1 calc((100% - 56px) / 3); }
 .work-card {
   display: flex;
   flex-direction: column;
@@ -406,7 +409,11 @@ h1, h2, h3, h4 {
   .split,
   .contact-grid { grid-template-columns: 1fr; gap: 40px; }
   .hero-img { order: -1; }
-  .work { grid-template-columns: 1fr; }
+  .work > .work-card { flex-basis: calc((100% - 28px) / 2); }
+}
+
+@media (max-width: 600px) {
+  .work > .work-card { flex-basis: 100%; }
 }
 
 @media (max-width: 820px) {
